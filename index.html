@@ -4,47 +4,402 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Divine Y. Desamparado</title>
-    <link rel="stylesheet" href="index.css">
-    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
-<body>
-    <section>
-        <div class="box">
-            <ul type="none">
-                <img src="images/logo.png" class="logo">
-                <li><a href="myreviewonecmascript.html">Review</a></li>
+<body class="bg-light">
+    
+    <nav class="navbar navbar-light fixed-top bg-light shadow-sm">
+        <div class="container-lg">
+          <a class="navbar-brand text-success fw-bold fs-4" href="#">Divine</a>
+          <div class="dropdown">
+            <button class="btn btn-secondary btn-success px-3" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fas fa-bars"></i>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="#home">Home</a></li>
+              <li><a class="dropdown-item" href="#about">About</a></li>
+              <li><a class="dropdown-item" href="#services">Services</a></li>
+              <li><a class="dropdown-item" href="#portfolio">Portfolio</a></li>
+              <li><a class="dropdown-item" href="#testimonials">Testimonials</a></li>
+              <li><a class="dropdown-item" href="#contact">Contact</a></li>
             </ul>
+          </div>
         </div>
-        <div class="text-container">
-            <p>Hello!</p>
-            <p>DIVINE DESAMPARADO</p>
-            <p>At your service!</p>
-            <button>Photos</button>
-            <button>Dances</button>
-            <button>Travel</button>
-            <button>Thoughts</button>
-        </div>
-        <img src="images/nge.png" class="me" alt="me">
-    </section>
-    <div class="about-container">
-        <img src="images/grad.jpg">
-        <div class="about-text">
-            <p>About Me</p>
-            <p>Who am I?</p>
-            <p>Hello, my name is Divine Desamparado and I really love to dance especially urban, hiphop, lyrical hiphop, pop and etc., genre. I am BSIT 2nd year student of the University of Immaculate Conception.</p>
-            <p>I love dogs, travel, adventure, music and sports because it is my stress reliever and in that way I can go out at my comfort zone and have fun.</p>
-        </div>
-    </div>
-    <div class="social-icons">
-        <a href="https://www.facebook.com/dibaboyyyyyy/"><i class="fab fa-facebook"></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
-        <a href="https://www.instagram.com/diivinaaaaa/"><i class="fab fa-instagram"></i></a>
-        <a href="https://www.tiktok.com/@divinadsmprdooo?lang=en"><i class="fab fa-tiktok"></i></a>
-        <a href="https://www.youtube.com/channel/UCxCv26rKluegz-Fr_R6tXkw"><i class="fab fa-youtube"></i></a>
-    </div>
-    <footer>
-        <p>Thank You For Visiting!</p>
-    </footer>
+      </nav>
+
+
+      <section class="home bg-info py-5" id="home">
+          <div class="container-lg">
+              <div class="row min-vh-100 align-items-center align-content-center">
+                  <div class="col-md-6 mt-5 mt-md-0">
+                      <div class="home-img text-center">
+                          <img src="images/d.jpg" class="rounded-circle mw-100" alt="profile img">
+                      </div>
+                  </div>
+                  <div class="col-md-6 mt-5 mt-md-0 order-md-first">
+                      <div class="home-text">
+                          <p class="text-muted mb-1">Hello I'm</p>
+                          <h1 class="text-success text-uppercase fs-1 fw-bold">A Student</h1>
+                          <h2 class="fs-4">Divine Y. Desamparado</h2>
+                          <p class="mt-4 text-muted">I'm a BSIT 2nd year college at the University of Immaculate Conception</p>
+                          <a href="#portfolio" class="btn btn-success px-3 mt-3">My Work</a>
+                      </div>
+                </div>
+              </div>
+          </div>
+      </section>
+
+      <section class="about py-5" id="about">
+          <div class="container-lg py-4">
+              <div class="row justify-content-center">
+                  <div class="col-lg-8">
+                      <div class="section-title text-center">
+                          <h2 class="fw-bold mb-5">About Me</h2>
+                      </div>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-6">
+                    <div class="about-text">
+                        <h3 class="fs-4 mb-3">Divine Y. Desamparado</h3>
+                        <p class="text-muted">I'm a BSIT 2nd year college at the University of Immaculate Conception</p>
+                    </div>
+                    <div class="row text-center text-uppercase my-3">
+                        <div class="col-sm-4">
+                            <div class="fact-item">
+                                <h4 class="fs-1 fw-bold">13</h4>
+                                <p class="text-muted">Years Dancer</p>
+                            </div>
+                        </div>
+                    
+                        <div class="col-sm-4">
+                            <div class="fact-item">
+                                <h4 class="fs-1 fw-bold">5</h4>
+                                <p class="text-muted">Years Softball Player</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="fact-item">
+                                <h4 class="fs-1 fw-bold">10</h4>
+                                <p class="text-muted">Years Band Member</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 d-flex align-items-center">
+                            <a href="#" class="btn px-3 btn-success me-5">Download CV</a>
+                            <div class="social-links">
+                                <a href="#" class="text-dark me-2"><i class="fab fa-facebook"></i></a>
+                                <a href="#" class="text-dark me-2"><i class="fab fa-twitter"></i></a>
+                                <a href="#" class="text-dark me-2"><i class="fab fa-instagram"></i></a>
+                                <a href="#" class="text-dark me-2"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-5 mt-md-0">
+                    <div class="skill-item mb-4">
+                        <h3 class="fs-6">Html</h3>
+                        <div class="progress" style="height: 10px;">
+                            <div class="progress-bar bg-primary" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                    </div>
+                    <div class="skill-item mb-4">
+                        <h3 class="fs-6">CSS</h3>
+                        <div class="progress" style="height: 10px;">
+                            <div class="progress-bar bg-warning" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                    </div>
+                    <div class="skill-item mb-4">
+                        <h3 class="fs-6">Javascript</h3>
+                        <div class="progress" style="height: 10px;">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                    </div>
+                    <div class="skill-item mb-4">
+                        <h3 class="fs-6">Bootstrap</h3>
+                        <div class="progress" style="height: 10px;">
+                            <div class="progress-bar bg-dark" role="progressbar" style="width: 10%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                    </div>
+                </div>
+              </div>
+          </div>
+      </section>
+
+      <section class="services bg-info py-5" id="services">
+          <div class="container-lg py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <h2 class="fw-bold mb-5">What I Do</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-6 col-lg-4  mb-4">
+                    <div class="service-item shadow-sm p-4 rounded bg-white">
+                        <div class="icon my-3 text-success fs-2">
+                            <i class="fas fa-child"></i>
+                        </div>
+                        <h3 class="fs-5 py-2">Dancing</h3>
+                        <p class="text-muted">I love to dance since grade 1 until now and join intermission and competitions.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="service-item shadow-sm p-4 rounded bg-white">
+                        <div class="icon my-3 text-success fs-2">
+                            <i class="fas fa-baseball-ball"></i>
+                        </div>
+                        <h3 class="fs-5 py-2">Softball</h3>
+                        <p class="text-muted">I am an athlete and I really love to play especially softball.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="service-item shadow-sm p-4 rounded bg-white">
+                        <div class="icon my-3 text-success fs-2">
+                            <i class="fas fa-drum"></i>
+                        </div>
+                        <h3 class="fs-5 py-2">Drum and Lyre</h3>
+                        <p class="text-muted">I am a Mother Majorette at my past school and I love doing it since grade 3.</p>
+                    </div>
+                </div>
+            </div>
+          </div>
+      </section>
+
+      <section class="portfolio py-5" id="portfolio">
+          <div class="container-lg py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <h2 class="fw-bold mb-5">Latest Works</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-item">
+                        <img src="images/mj.jpg" class="w-75 img-thumbnail" alt="portfolio item">
+                        <h3 class="text-capitalize fs-5 my-2">Tribute Page</h3>
+                        <p class="mb-4"><a href="DemoPages/tribute/tribute.html" class="text-success text-decoration-none">See Page</a></p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-item">
+                        <img src="images/tech.jpg" class="w-75 img-thumbnail" alt="portfolio item">
+                        <h3 class="text-capitalize fs-5 my-2">Gallery Page</h3>
+                        <p class="mb-4"><a href="DemoPages/gallery/gallery.html" class="text-success text-decoration-none">See Page</a></p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-item">
+                        <img src="images/rest.jpg" class="w-75 img-thumbnail" alt="portfolio item">
+                        <h3 class="text-capitalize fs-5 my-2">Restaurant Page</h3>
+                        <p class="mb-4"><a href="DemoPages/restaurant/myrestaurant.html" class="text-success text-decoration-none">See Page</a></p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-item">
+                        <img src="images/vac.jpg" class="w-75 img-thumbnail" alt="portfolio item">
+                        <h3 class="text-capitalize fs-5 my-2">Vaccination Page</h3>
+                        <p class="mb-4"><a href="DemoPages/form/vaccination.html" class="text-success text-decoration-none">See Page</a></p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-item">
+                        <img src="images/logo.png" class="w-75 img-thumbnail" alt="portfolio item">
+                        <h3 class="text-capitalize fs-5 my-2">Logo Page</h3>
+                        <p class="mb-4"><a href="#" class="text-success text-decoration-none">See Page</a></p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-item">
+                        <img src="images/20210722_094744.jpg" class="w-75 img-thumbnail" alt="portfolio item">
+                        <h3 class="text-capitalize fs-5 my-2">Digital Page</h3>
+                        <p class="mb-4"><a href="Divine/index.html" class="text-success text-decoration-none">See Page</a></p>
+                    </div>
+                </div>
+            </div>
+          </div>
+      </section>
+
+      <section class="freelancer-available py-5 bg-success">
+          <div class="container-lg py-4">
+              <div class="row justify-content-center">
+                  <div class="col-lg-8 text-center">
+                      <p class="text-light fs-5">Do you have any question?</p>
+                      <h2 class="fs-1 text-white mb-4">I'm Available To Answer Your Questions</h2>
+                      <a href="#contact" class="btn btn-outline-light">Message Me</a>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+
+      <section class="testimonials py-5" id="testimonials">
+          <div class="container-lg py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <h2 class="fw-bold mb-5">Testimonials</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-xl-7">
+                    <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
+                        <ol class="carousel-indicators">
+                          <li data-bs-target="#carousel1" data-bs-slide-to="0" class="active bg-success" ></li>
+                          <li class="bg-success" data-bs-target="#carousel1" data-bs-slide-to="1"></li>
+                          <li  class="bg-success" data-bs-target="#carousel1" data-bs-slide-to="2"></li>
+                        </ol>
+                        
+                        <div class="carousel-inner p-1">
+                    <div class="testi-item carousel-item active bg-white shadow-sm rounded p-4 mb-5">
+                        <div class="testi-author-info d-flex align-items-center">
+                            <img src="images/n.jpg" class="img-thumbnail rounded-circle" alt="author img">
+                            <div class="author ms-3">
+                                <h3 class="fs-6 mb-1">Divine Y. Desamparado</h3>
+                                <p class="text-muted m-0">Student</p>
+                            </div>
+                        </div>
+                        <p class="text-muted mt-3">I'm a BSIT 2nd year college at the University of Immaculate Conception</p>
+                        <div class="rating text-success">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="testi-item carousel-item bg-white shadow-sm rounded p-4 mb-5"">
+                        <div class="testi-author-info d-flex align-items-center">
+                            <img src="images/c.jpg" class="img-thumbnail rounded-circle" alt="author img">
+                            <div class="author ms-3">
+                                <h3 class="fs-6 mb-1">Divine Y. Desamparado</h3>
+                                <p class="text-muted m-0">Student</p>
+                            </div>
+                        </div>
+                        <p class="text-muted mt-3">I'm a BSIT 2nd year college at the University of Immaculate Conception</p>
+                        <div class="rating text-success">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="testi-item carousel-item bg-white shadow-sm rounded p-4 mb-5"">
+                        <div class="testi-author-info d-flex align-items-center">
+                            <img src="images/e.jpg" class="img-thumbnail rounded-circle" alt="author img">
+                            <div class="author ms-3">
+                                <h3 class="fs-6 mb-1">Divine Y. Desamparado</h3>
+                                <p class="text-muted m-0">Student</p>
+                            </div>
+                        </div>
+                        <p class="text-muted mt-3">I'm a BSIT 2nd year college at the University of Immaculate Conception</p>
+                        <div class="rating text-success">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+      </section>
+
+
+      <section class="contact bg-info py-5" id="contact">
+          <div class="container-lg py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <h2 class="fw-bold mb-5">Contact Me</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="contact-item d-flex mb-3">
+                        <div class="icon fs-4 text-success">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="text ms-3">
+                            <h3 class="fs-5">Email</h3>
+                            <p class="text-muted">ddesamparado_200000000272@uic.edu.ph</p>
+                        </div>
+                    </div>
+                    <div class="contact-item d-flex mb-3">
+                        <div class="icon fs-4 text-success">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="text ms-3">
+                            <h3 class="fs-5">Phone</h3>
+                            <p class="text-muted">09076931658</p>
+                        </div>
+                    </div>
+                    <div class="contact-item d-flex mb-3">
+                        <div class="icon fs-4 text-success">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="text ms-3">
+                            <h3 class="fs-5">Visit Office</h3>
+                            <p class="text-muted">Serquina Street, Polomolok, South Cotabato</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="contact-form">
+                        <form>
+                            <div class="row">
+                                <div class="col-lg-6 mb-4">
+                                    <input type="text" placeholder="Your Name" class="form-control form-control-lg fs-6 border-0 shadow-sm">
+                                </div>
+                                <div class="col-lg-6 mb-4">
+                                    <input type="text" placeholder="Your Email" class="form-control form-control-lg fs-6 border-0 shadow-sm">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12 mb-4">
+                                    <input type="text" placeholder="Subject" class="form-control form-control-lg fs-6 border-0 shadow-sm">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12 mb-4">
+                                    <textarea rows="5" placeholder="Your Message" class="form-control form-control-lg fs-6 border-0 shadow-sm"></textarea>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <button type="submit" class="btn btn-success px-3">Send Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+          </div>
+      </section>
+
+
+      <footer class="footer border-top py-4">
+          <div class="container-lg">
+              <div class="row">
+                  <div class="col-lg-12">
+                      <p class="m-0 text-center text-muted">&copy; 2021 Divina</p>
+                  </div>
+              </div>
+          </div>
+      </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
